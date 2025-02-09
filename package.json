@@ -1,0 +1,19 @@
+{
+  "name": "gdsc-task-5",
+  "version": "1.0.0",
+  "description": "A converter to convert .md files to html files",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Ayush Varun",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "marked": "^15.0.6",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9"
+  }
+}
